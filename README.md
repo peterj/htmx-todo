@@ -19,8 +19,8 @@ We'll build a simple to-do list using the following:
 - [x] Add Tailwind
 - [x] Make it deployable
 - [x] Display a to-do list
+- [x] Add a new item
+- [x] Delete an item
 
-- [ ] Add a new item
-- [ ] Delete an item
 - [ ] Mark the item as completed
 - [ ] Add some persistance (DB)
