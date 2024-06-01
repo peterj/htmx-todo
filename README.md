@@ -10,14 +10,16 @@ We'll build a simple to-do list using the following:
 - [Bun](https://bun.sh/)
 - [ElysiaJS](https://elysiajs.com/)
 - [Tailwind](https://tailwindcss.com/)
+- [Fly.io](https://fly.io/)
 
 ### TODOs
 
-- [ ] Create a new project using Bun
-- [ ] Hook up ElysiaJS and htmlx to the project
-- [ ] Add Tailwind
-- [ ] Make it deployable (fly.io?)
-- [ ] Display a to-do list
+- [x] Create a new project using Bun
+- [x] Hook up ElysiaJS and htmx to the project
+- [x] Add Tailwind
+- [ ] Make it deployable
+
+- [x] Display a to-do list
 - [ ] Add a new item
 - [ ] Delete an item
 - [ ] Mark the item as completed
