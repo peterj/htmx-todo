@@ -1,6 +1,6 @@
 # Simple to-do list
 
-[Watch the live stream](https://www.youtube.com/watch?v=GifUmXEeB3Y)
+[![Watch the live stream](https://img.youtube.com/vi/GifUmXEeB3Y/0.jpg)](https://www.youtube.com/watch?v=GifUmXEeB3Y)
 
 ## What are we building?
 
