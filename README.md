@@ -17,9 +17,9 @@ We'll build a simple to-do list using the following:
 - [x] Create a new project using Bun
 - [x] Hook up ElysiaJS and htmx to the project
 - [x] Add Tailwind
-- [ ] Make it deployable
-
+- [x] Make it deployable
 - [x] Display a to-do list
+
 - [ ] Add a new item
 - [ ] Delete an item
 - [ ] Mark the item as completed
