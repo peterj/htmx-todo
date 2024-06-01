@@ -1,6 +1,10 @@
 # Simple to-do list
 
-We'll build a simple to-do list using the folllwing:
+[Watch the live stream](https://www.youtube.com/watch?v=GifUmXEeB3Y)
+
+## What are we building?
+
+We'll build a simple to-do list using the following:
 
 - [htmx](https://htmx.org/)
 - [Bun](https://bun.sh/)
