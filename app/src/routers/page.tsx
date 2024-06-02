@@ -1,32 +1,16 @@
 import Elysia from 'elysia';
 import MainLayout from '../components/main-layout';
+import TodoInputForm from '../components/todo-input-form';
 
-const pageRouter = new Elysia();
-
-pageRouter.get('/', async () => {
+const pageRouter = new Elysia().get('/', async () => {
   return (
     <MainLayout>
-      <div>
-        <form
-          hx-boost='true'
-          action='/api/todos'
-          method='post'
-          hx-swap='beforeend'
-          hx-target='#todo-list'
-        >
-          <input
-            class='border'
-            id='todo'
-            placeholder='What are you working on?'
-            type='text'
-            name='todo'
-          />
-          <button>Add Todo</button>
-        </form>
+      <div class='max-w-xl'>
+        <TodoInputForm />
       </div>
-      <div>
-        <h3>Your todo list</h3>
-        <ul id='todo-list'></ul>
+      <div class='mt-12'>
+        <h3 class='font-bold text-xl'>Your todo list</h3>
+        <ul class='mt-2' id='todo-list'></ul>
       </div>
     </MainLayout>
   );
